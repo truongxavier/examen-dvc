@@ -2,8 +2,8 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 
 # Charger les données
-X_train = pd.read_csv('data/processed/X_train.csv')
-X_test = pd.read_csv('data/processed/X_test.csv')
+X_train = pd.read_csv('data/processed_data/X_train.csv')
+X_test = pd.read_csv('data/processed_data/X_test.csv')
 
 # Normaliser les données
 scaler = StandardScaler()

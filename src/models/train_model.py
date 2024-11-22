@@ -3,8 +3,8 @@ from sklearn.linear_model import Ridge
 import joblib
 
 # Charger les données normalisées
-X_train = pd.read_csv('data/processed/X_train_scaled.csv')
-y_train = pd.read_csv('data/processed/y_train.csv')
+X_train = pd.read_csv('data/processed_data/X_train_scaled.csv')
+y_train = pd.read_csv('data/processed_data/y_train.csv')
 
 # Charger les meilleurs paramètres
 best_params = joblib.load('models/best_params.pkl')

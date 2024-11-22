@@ -4,8 +4,8 @@ from sklearn.model_selection import GridSearchCV
 import joblib
 
 # Charger les données normalisées
-X_train = pd.read_csv('data/processed/X_train_scaled.csv')
-y_train = pd.read_csv('data/processed/y_train.csv')
+X_train = pd.read_csv('data/processed_data/X_train_scaled.csv')
+y_train = pd.read_csv('data/processed_data/y_train.csv')
 
 # Définir le modèle et les paramètres à tester
 model = Ridge()
