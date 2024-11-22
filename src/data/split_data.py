@@ -4,6 +4,10 @@ from sklearn.model_selection import train_test_split
 # Charger les données depuis le fichier CSV raw
 df = pd.read_csv('data/raw_data/raw.csv')
 
+# Vérifier si la colonne 'date' est présente et la supprimer
+if 'date' in df.columns:
+    df = df.drop(columns=['date'])
+
 # Définir les features (X) et la cible (y)
 # Ici, 'silica_concentrate' est la variable cible et se trouve dans la dernière colonne
 X = df.drop(columns=['silica_concentrate'])
