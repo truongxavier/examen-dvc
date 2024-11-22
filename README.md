@@ -15,5 +15,5 @@ Dans ce dépôt vous trouverez l'architecture proposé pour mettre en place la s
 ```
 
 - **Nom** : Xavier Truong
-- **Email** : xavier@example.com
+- **Email** : truong.xavier@gmail.com
 - **Lien vers le Dépôt DagsHub** : [Lien vers DagsHub](https://dagshub.com/truongxavier/examen-dvc)
